@@ -5,7 +5,7 @@ const AutoLoad = require('@fastify/autoload')
 
 module.exports = async function (fastify, opts) {
 // Place here your custom code!
-// test
+// test3
 
   fastify.register(require('@fastify/cors'), {
     origin: '*'
